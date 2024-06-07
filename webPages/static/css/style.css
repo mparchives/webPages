@@ -1,0 +1,23 @@
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #df7e7e;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.left-links{
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #0dd84a;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+  
+/* Main content */
+.main {
+margin-top: 30px; 
+}

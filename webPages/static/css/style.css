@@ -63,3 +63,30 @@ body {
 footer{
     padding-top: 10%;
 }
+
+section.left-link, section.right-link{
+    margin-top: 100%;
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+p.left-link, p.right-link{
+    padding-bottom: -4%;
+}
+
+a.left-link:link, a.right-link:link{
+    color: goldenrod;
+}
+
+a.left-link:visited, a.right-link:visited{
+    color: rgb(25, 214, 151);
+}
+
+a.left-link:hover, a.right-link:hover{
+    color: rgb(133, 207, 250);
+}
+
+a.left-link:active, a.right-link:active{
+    color:rgb(61, 241, 61);
+}

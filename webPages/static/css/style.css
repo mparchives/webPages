@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     width: 15%;
-    background:  url("../img/temp menu bar.jpg");
+    background:  url("../img/left menu bar.png");
     background-repeat: no-repeat;
     position: fixed;
     height: 100%;
@@ -24,7 +24,7 @@
     margin: 0;
     padding: 0;
     width: 15%;
-    background:  url("../img/temp menu bar.jpg");
+    background:  url("../img/right menu bar.png");
     background-repeat: no-repeat;
     position: fixed;
     height: 100%;
@@ -45,13 +45,13 @@
 }
 
 section.self-photo{
-    background:  url("../img/temp michelle photo.jpg");
+    background:  url("../img/Michelle pic.png");
     background-repeat: no-repeat;
     position: inherit;
     overflow: hidden;
     width: auto;
-    padding: 30%;
-    background-size: 45%;
+    padding: 27%;
+    background-size: 87%;
     background-position: center center;
     padding-bottom: 0;
 }
@@ -64,11 +64,21 @@ footer{
     padding-top: 10%;
 }
 
+p.left-link-topics, p.right-link-topics{
+    margin-top: 72%;
+    font-family: serif;
+    font-size: 175%;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+}
+
 section.left-link, section.right-link{
-    margin-top: 100%;
-    margin-left: 5%;
-    font-family: sans-serif;
-    font-size: 120%;
+    /* margin-top: 100%;
+    margin-left: 5%; */
+    font-family: serif;
+    font-size: 93%;
+    text-align: center;
 }
 
 p.left-link, p.right-link{
@@ -76,11 +86,11 @@ p.left-link, p.right-link{
 }
 
 a.left-link:link, a.right-link:link{
-    color: goldenrod;
+    color: whitesmoke;;
 }
 
 a.left-link:visited, a.right-link:visited{
-    color: rgb(25, 214, 151);
+    color: whitesmoke;
 }
 
 a.left-link:hover, a.right-link:hover{
@@ -88,5 +98,9 @@ a.left-link:hover, a.right-link:hover{
 }
 
 a.left-link:active, a.right-link:active{
-    color:rgb(61, 241, 61);
+    color:white;
 }
+
+a.left-link, a.right-link:link { 
+    text-decoration: none; 
+  } 
